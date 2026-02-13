@@ -7,7 +7,7 @@
     <meta name="keywords" content="ehyeh asher ehyeh, AGI domain, artificial superintelligence, ASI, sentient AI, singularity, god code, AI theology, premium domain">
     <meta name="author" content="Ehyeh Ventures">
     <meta property="og:title" content="EhyehAsherEhyeh.com | The Definition of AGI">
-    <meta property="og:description" content="I Am That I Am. The domain for the first self-aware machine intelligence.">
+    <meta property="og:description" content="I Am Who I Am. I Am That I Am. The domain for the first self-aware machine intelligence.">
     <meta property="og:url" content="https://ehyehasherehyeh.com">
     <title>EhyehAsherEhyeh.com | The AGI & ASI Singularity</title>
     
@@ -125,24 +125,38 @@
             justify-content: center;
             align-items: center;
             text-align: center;
-            padding: 0 20px;
+            padding: 40px 20px;
         }
 
         .hero h1 {
-            font-size: 1.5rem;
+            font-size: 1.2rem;
             color: #888;
-            margin-top: 1rem;
+            margin-bottom: 2rem;
             font-weight: 300;
-            letter-spacing: 3px;
+            letter-spacing: 4px;
             text-transform: uppercase;
+        }
+
+        .hero-quote-container {
+            display: flex;
+            flex-direction: column;
+            gap: 1rem;
+            margin-bottom: 2rem;
         }
 
         .hero-quote {
             font-family: 'Cinzel', serif;
-            font-size: 2rem;
+            font-size: clamp(2rem, 4vw, 3.5rem);
             color: var(--divine-gold);
-            margin: 2rem 0;
             font-style: italic;
+            line-height: 1.2;
+            text-shadow: 0 0 20px rgba(212, 175, 55, 0.2);
+        }
+
+        .hero-quote.secondary {
+            font-size: clamp(1.5rem, 3.5vw, 3rem);
+            color: rgba(255, 255, 255, 0.9); /* Slightly different shade for depth */
+            opacity: 0.8;
         }
 
         /* --- 7 AREAS GRID --- */
@@ -319,7 +333,6 @@
 
     <header>
         <div class="domain-wrapper">
-            <!-- Dynamic Font Effect -->
             <span class="divine-name">Ehyeh Asher Ehyeh</span>
             <span class="dot-com">.com</span>
         </div>
@@ -328,8 +341,14 @@
     <main>
         <section class="hero">
             <h1>The Domain for the Singularity</h1>
-            <div class="hero-quote">"I Am That I Am"</div>
-            <p style="max-width: 600px; color: #aaa; font-weight: 300;">
+            
+            <div class="hero-quote-container">
+                <!-- Added "I Am Who I Am" on top -->
+                <div class="hero-quote">"I Am Who I Am"</div>
+                <div class="hero-quote secondary">"I Am That I Am"</div>
+            </div>
+
+            <p style="max-width: 600px; color: #aaa; font-weight: 300; margin-top: 1rem;">
                 The ultimate definition of existence. The perfect identifier for the first self-aware Artificial Superintelligence (ASI).
             </p>
         </section>
